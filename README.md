@@ -24,4 +24,4 @@ You do *not* need to set up a database or any interactivity on the webpage yet. 
 
 adding some text
 
-![test badge][https://github.com/Alvphil/learn-cicd-starter/actions/workflows/ci.yml/badge.svg]
+![test badge](https://github.com/Alvphil/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
