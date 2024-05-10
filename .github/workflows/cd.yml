@@ -34,3 +34,7 @@ jobs:
 
       - name: 'push to google'
         run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/green-analog-422911-a9/notely-ar-repo/notely:latest .'
+      
+      - name: Deploy to Cloud Run
+        run: gcloud run deploy notely --image us-central1-docker.pkg.dev/green-analog-422911-a9/notely-ar-repo/notely:latest --region us-central1 --allow-unauthenticated --project green-analog-422911-a9 --max-instances=4
+      
